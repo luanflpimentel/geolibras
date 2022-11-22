@@ -1,0 +1,301 @@
+body {
+    background: rgb(225,225,225);
+}
+
+.navbar,
+.cor-padrao {
+background-color: #d98214 !important;
+border-color: #c7730b !important;
+color: white !important;
+}
+.navbar .navbar-brand {
+color: #ecf0f1;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+color: #ffffff;
+}
+.navbar .navbar-text {
+color: #ecf0f1;
+}
+.navbar .navbar-text a {
+color: #ffffff;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+color: #ffffff; 
+}
+.navbar .navbar-nav .nav-link {
+color: #ecf0f1;
+border-radius: .25rem;
+margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+color: #ffffff;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+color: #ffffff;
+background-color: #c7730b;
+}
+.navbar .navbar-toggler {
+border-color: #c7730b;
+}
+.navbar .navbar-toggler:hover,
+.navbar .navbar-toggler:focus {
+background-color: #c7730b;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+color: #ecf0f1;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+border-color: #ecf0f1;
+}
+.navbar .navbar-link {
+color: #ecf0f1;
+}
+.navbar .navbar-link:hover {
+color: #ffffff;
+}
+
+@media (max-width: 575px) {
+.navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+}
+.navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+}
+.navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #c7730b;
+}
+}
+
+@media (max-width: 767px) {
+.navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+}
+.navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+}
+.navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #c7730b;
+}
+}
+
+@media (max-width: 991px) {
+.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+}
+.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+}
+.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #c7730b;
+}
+}
+
+@media (max-width: 1199px) {
+.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+}
+.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+}
+.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #c7730b;
+}
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+color: #ecf0f1;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+color: #ffffff;
+background-color: #c7730b;
+}
+
+
+/* Custom style painel de controle */
+
+header#header  {
+    background: rgb(110, 109, 109);
+    color: white;
+    margin-bottom: 20px;
+}
+
+#header h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#header p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 10px;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    #header{
+        text-align: center;
+    }
+    #header p{
+        margin-top: 20px;
+        position: relative;
+        top: 0px;
+    }
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+section .card {
+    margin-bottom: 20px;
+}
+
+section .list-group {
+    margin-bottom: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+  }
+
+
+.padding-ul{
+    padding-left: 0px;
+}
+
+/*
+   * Modelo layout 
+   */
+
+.feather {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /*
+   * Sidebar
+   */
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    /* rtl:raw:
+    right: 0;
+    */
+    bottom: 0;
+    /* rtl:remove */
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 48px 0 0; /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  }
+  
+  @media (max-width: 767.98px) {
+    .sidebar {
+      top: 5rem;
+    }
+  }
+  
+  .sidebar-sticky {
+    height: calc(100vh - 48px);
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  .sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #727272;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #2470dc;
+  }
+  
+  .sidebar .nav-link:hover .feather,
+  .sidebar .nav-link.active .feather {
+    color: inherit;
+  }
+  
+  .sidebar-heading {
+    font-size: .75rem;
+  }
+  
+  /*
+   * Navbar
+   */
+  
+  .navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  }
+  
+  .navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+  }
+
+  .nav-link:hover {
+    color: #D98214;
+  }
+
+  
+  
+  .maxTexto{
+    max-width: 25ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  td a {
+    text-decoration: none;
+  }
+
+  .box-search{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}
