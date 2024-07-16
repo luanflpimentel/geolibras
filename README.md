@@ -35,4 +35,4 @@
 + Bootstrap
 + MySQL
 
-+ ![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/cd3e97f5-b07c-4c05-9a03-2bc4f6efea03)
+![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/cd3e97f5-b07c-4c05-9a03-2bc4f6efea03)
